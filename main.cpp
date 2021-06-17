@@ -7,10 +7,15 @@
 #include "windows.h"
 #include "Snake.h"
 
-void draw(Snake snake, /** The game class object */
-          sf::RenderWindow *window, /** Game window pointer */
-          std::vector<std::vector<sf::Sprite>>& sprites /** Global sprite matrix */
-          ) /** function that apply changes to the global sprite matrix */ {
+/** \brief manage sprites push them to window.
+ *
+ * Set new texture to every sprite every tick according to field state.
+ *
+ * @param snake - Snake object
+ * @param window - Window for pushing sprites
+ * @param sprites - global sprite matrix
+ */
+void draw(Snake snake, sf::RenderWindow *window, std::vector<std::vector<sf::Sprite>>& sprites) {
     sf::Texture snake_texture, wall_texture, empty_texture, apple_texture;
     snake_texture.loadFromFile("snake.jpg");
     wall_texture.loadFromFile("wall.jpg");
@@ -42,6 +47,12 @@ void draw(Snake snake, /** The game class object */
     window->display();
 }
 
+/** \brief main function with cycle for game.
+ *
+ * Initialize window, game and global sprite matrix. Process events from player's input. Process game running.
+ *
+ * @return 0 if program is finished
+ */
 int main() {
     const int n = 6;
     sf::RenderWindow window;
