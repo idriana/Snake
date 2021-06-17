@@ -1,18 +1,19 @@
+#ifndef CPPPRJ_SNAKE_H
+#define CPPPRJ_SNAKE_H
+
 #include <vector>
 #include <random>
 #include "windows.h"
 
-#ifndef CPPPRJ_SNAKE_H
-#define CPPPRJ_SNAKE_H
 
 ///id of empty place
-#define Empty_id 0
+constexpr int Empty_id = 0;
 ///id of wall
-#define Wall_id 1
+constexpr int Wall_id = 1;
 ///id of snake part
-#define Snake_id 2
+constexpr int Snake_id = 2;
 ///id of apple
-#define Apple_id 3
+constexpr int Apple_id = 3;
 
 /** \brief The structure of the radius vector to the cell on the field.
  *
@@ -270,7 +271,7 @@ public:
                 }
                 return false;
             default:
-                break;
+                std::terminate();
         }
     }
 };

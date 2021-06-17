@@ -15,7 +15,7 @@
  * @param window - Window for pushing sprites
  * @param sprites - global sprite matrix
  */
-void draw(Snake snake, sf::RenderWindow *window, std::vector<std::vector<sf::Sprite>>& sprites) {
+void draw(Snake snake, sf::RenderWindow *window, std::vector<std::vector<sf::Sprite>> &sprites) {
     sf::Texture snake_texture, wall_texture, empty_texture, apple_texture;
     snake_texture.loadFromFile("snake.jpg");
     wall_texture.loadFromFile("wall.jpg");
@@ -54,7 +54,7 @@ void draw(Snake snake, sf::RenderWindow *window, std::vector<std::vector<sf::Spr
  * @return 0 if program is finished
  */
 int main() {
-    const int n = 6;
+    const int n = 10;
     sf::RenderWindow window;
     window.create(sf::VideoMode(640, 640), "My window");
     sf::Texture texture;
