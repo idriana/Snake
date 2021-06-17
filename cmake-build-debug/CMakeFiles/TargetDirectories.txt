@@ -1,0 +1,7 @@
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/CMakeFiles/cppprj.dir
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/doctest/CMakeFiles/tests.dir
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/doctest/CMakeFiles/rebuild_cache.dir
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/doctest/CMakeFiles/doctest.dir
+C:/Users/mad_f/CLionProjects/cppprj/cmake-build-debug/doctest/CMakeFiles/edit_cache.dir
