@@ -1,2 +1,0 @@
-C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe qc libdoctest.a  CMakeFiles/doctest.dir/doctest.cpp.obj
-C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ranlib.exe libdoctest.a
